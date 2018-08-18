@@ -1,18 +1,18 @@
-// import React, { Component } from 'react';
-
-// import spdf from '../../node_modules/simple-pdf-react';
+import React, { Component } from 'react';
 
 
 
-// class Resume extends Component {
-//     render() {
-//         return(
-//            <div>
-//         <spdf.SimplePDF file="https://resume.creddle.io/resume/168a95faj2m"/>
-//       </div>
+
+
+class Resume extends Component {
+    render() {
+        return(
+           <div>
+        <iframe src="https://drive.google.com/file/d/1ULj8a-CnqY9qHD-j6wNPsliVtTvesrWq/preview" width="670" height="850"></iframe>
+      </div>
            
-//         );
-//     }
-// }
+        );
+    }
+}
 
-// export default Resume;
+export default Resume;

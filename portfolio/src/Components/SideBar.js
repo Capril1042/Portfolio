@@ -20,6 +20,9 @@ class SideBar extends Component {
                     <NavLink className="text" href="Blog-CapriLewis"> Blog  </NavLink>
                 </NavItem>
                 <NavItem className="tab">
+                    <NavLink className="text" href="Resume-CapriLewis"> Resume  </NavLink>
+                </NavItem>
+                <NavItem className="tab">
                     <NavLink className="text" href="Contact-CapriLewis"> Contact  </NavLink>
                 </NavItem>
                 

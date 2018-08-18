@@ -1,21 +1,23 @@
-// import React, { Component } from 'react';
-// import SideBar from '../SideBar'
-// import Resume from '../Resume'
+import React, { Component } from 'react';
+import SideBar from '../SideBar'
+import Resume from '../Resume'
 
 
-// class ResumePage extends Component {
-//     render(){
-//         return(
-//             <div className="wrapper">
-//                 <div className="sidebar">
-//                     <SideBar/>
-//                 </div>
-//                 <div className="resume">
-//                     <Resume/>
-//                 </div>
-//             </div>
-//         );
-//     }
-// }
+class ResumePage extends Component {
+    render(){
+        return(
+            <div>
+            <div>
+            <div >
+                    <SideBar/>
+                </div>
+                <div className="what"> Check out my Resume
+                </div >
+                    <Resume/>
+                </div>
+            </div>
+        );
+    }
+}
 
-// export default ResumePage;
+export default ResumePage;

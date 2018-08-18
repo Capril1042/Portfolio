@@ -18,7 +18,7 @@ class App extends Component {
     <Route path="/Blog-CapriLewis" component={BlogPage} />
     <Route path="/Contact-CapriLewis" component={ContactPage} />
     <Route path="/Projects-CapriLewis" component={ProjectPage} />
-    {/* <Route path="/Resume-CapriLewis" component={ResumePage} /> */}
+     <Route path="/Resume-CapriLewis" component={ResumePage} /> 
   </div>
     );
   }
