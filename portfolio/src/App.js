@@ -6,6 +6,7 @@ import BlogPage from './Components/PageViews/BlogPage'
 import ContactPage from './Components/PageViews/ContactPage'
 import LandingPage from './Components/PageViews/LandingPage'
 import ProjectPage from './Components/PageViews/ProjectPage'
+import ResumePage from './Components/PageViews/ResumePage'
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
     <Route path="/Blog-CapriLewis" component={BlogPage} />
     <Route path="/Contact-CapriLewis" component={ContactPage} />
     <Route path="/Projects-CapriLewis" component={ProjectPage} />
+    {/* <Route path="/Resume-CapriLewis" component={ResumePage} /> */}
   </div>
     );
   }

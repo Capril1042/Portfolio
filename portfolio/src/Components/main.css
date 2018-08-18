@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: 'Copse';
+  background: #EAE6DA;
+}
+
+.navigation {
+  background: #A9754F;
+  
+}
+
+.text {
+  color: #EAE6DA;
+  font-family: 'Copse';
+}
+
+.text:hover {
+  color: #D1B894;
+}
+
+.tab:hover {
+background-color: #485167;
+}
+
+.landing {
+  text-align: center;
+  font-family: 'Copse';
+  margin: 20%;
+  font-size: 3em;
+  height:90%;
+  color:#485167
+
+}
+
+.about{
+  width:100%;
+  display:inline-flex;
+}
+.words {
+  color:#485167;
+  flex:auto;
+  font-family: 'Copse';
+  background-color: #D1B894;
+  width:50%;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  padding:5%;
+  box-shadow: 2px 2px 1px 2px #A9754F;
+
+}
+
+.me {
+  flex:auto;
+  background-color: #BCBCBE;
+  border-radius:50%;
+  width: 50%;
+  margin-top:0;
+  margin-left: 5%;
+  margin-right:5%;
+  margin-bottom: 10%;
+  text-align: center;
+
+}
+
+.what {
+  color: #485167;
+  font-family: 'Copse';
+  font-size:3em;
+  margin-left:2%;
+  margin-top:2%;
+  padding-bottom:0;
+  width:55%
+}
+/* 
+div .wrapper {
+  display:flex;
+  flex-direction: row;
+  
+}
+
+div .sidebar {
+  flex: 1 1 auto;
+  margin: 2.5% 0% 2.5% 0  ;
+  padding: 10px;
+  width: 200px;
+  background-color: #ffad99;
+  position: fixed;
+  height: 90%;
+  overflow: auto;
+  border-radius: 35px;
+  }
+
+.sidebar a {
+  display: flex;
+  color: #003300;
+  padding: 30px;
+  text-decoration: none;
+  border-radius:35px;
+}
+ 
+.sidebar a:active {
+  background-color: #ffd1b3;
+  color: #669900;
+  border-radius: 35px;
+}
+
+.sidebar a:hover:not(:active) {
+  background-color: #ffccb3;
+  color: #669900;
+}
+
+div .title {
+  flex: 2  2 auto;
+  padding: 150px;
+  margin: 10% 0 0 0;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  font-size:80px
+  
+}
+
+.name {
+font-size:80px
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+} */
