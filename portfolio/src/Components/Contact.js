@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 
 let iconStyle = {
-    fontSize :'200px'
+    color:'#A9754F',
+    fontSize :'200px',
+    padding: '10px',
+    margin: '3%',
+    
 };
 
 class Contact extends Component {
@@ -12,7 +16,7 @@ class Contact extends Component {
            <div className="what">
            A few ways to get in touch...
            </div>
-           <i className="fa fa-github" style={iconStyle}></i>
+           <i className="fa fa-github" style={iconStyle}><a href="mailto:me@company.com"></a></i>
            <i className="fa fa-linkedin-square" style ={iconStyle}></i>
            <i className="fa fa-envelope" style ={iconStyle}></i>
            </div>
