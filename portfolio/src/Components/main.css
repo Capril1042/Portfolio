@@ -78,7 +78,11 @@ iframe{
   margin-left:20%;
 }
 
-
+.slides {
+  height:70%;
+  width:80%;
+  margin-left:10%;
+}
 /* 
 div .wrapper {
   display:flex;
