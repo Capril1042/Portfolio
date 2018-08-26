@@ -1,29 +1,17 @@
 import React, { Component } from 'react';
-import SideBar from '../SideBar'
+
 import '../main.css'
 
 class AboutMePage extends Component {
     render(){
         return(
-            <div>
-            <div >
-            <SideBar/>
-                </div>
-                <div className="what"> A little about me... </div>
-                <div className="about">
-                <div className="words">
-            <p>Hi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about me
-            Hi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about me
-            Hi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about me
-            Hi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about me
-            Hi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about me
-            Hi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about meHi, my name is capri. place holder paragrapgh about me
-            Hi, my name is capri. place holder paragrapgh about me.</p></div>
-            <div className="me">
-            This is me
-            </div>
-            </div>
-            </div>
+            <section className="me">
+        <p> HI! My name is Capri, and i am a software developer.
+        I didnt grow up dreaming of computers or realy even . I like to travel
+        
+        hang out wiht my dog blah blah blah this is a pargaraph about me  </p>
+            </section>
+            
         );
     }
 }

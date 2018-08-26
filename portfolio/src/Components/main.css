@@ -1,18 +1,30 @@
 body {
   margin: 0;
   font-family: 'Copse';
-  background: #EAE6DA;
-}
-
-.navigation {
-  background: #A9754F;
   
 }
 
-.text {
-  color: #EAE6DA;
-  font-family: 'Copse';
+
+
+section {
+padding-top:5%;
 }
+
+.landing {
+  width:100%;
+  height:auto;
+  background: black;
+  text-align: center;
+  font-family: 'Copse';
+  font-size: 3em;
+  color: #f2f2f2;
+}
+
+landing .name  {
+ justify-content:center;
+ text-align:center;
+}
+
 
 .text:hover {
   color: #D1B894;
@@ -22,15 +34,15 @@ body {
 background-color: #485167;
 }
 
-.landing {
+/* .landing {
   text-align: center;
   font-family: 'Copse';
   margin: 20%;
   font-size: 3em;
   height:90%;
-  color:#485167
-
-}
+  color:#48516
+7
+} */
 
 .about{
   width:100%;
@@ -53,14 +65,6 @@ background-color: #485167;
 .me {
   flex:auto;
   background-color: #BCBCBE;
-  border-radius:50%;
-  width: 50%;
-  margin-top:0;
-  margin-left: 5%;
-  margin-right:5%;
-  margin-bottom: 10%;
-  text-align: center;
-
 }
 
 .what {
@@ -83,6 +87,27 @@ iframe{
   width:80%;
   margin-left:10%;
 }
+
+img  {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:50%;
+  border-radius:50%;
+
+  }
+
+
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
 /* 
 div .wrapper {
   display:flex;

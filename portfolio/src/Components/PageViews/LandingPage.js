@@ -3,19 +3,20 @@ import SideBar from '../SideBar'
 import Landing from '../Landing'
 import '../main.css'
 
+
+const Pic = require('../../assets/profilepic.jpg');
+
 class LandingPage extends Component {
     render(){
         return(
-            <div className="wrapper">
-                <div className="sidebar">
-                    <SideBar/>
-                </div>
-                <div className="title">
-                    <Landing/>
-                </div>
-            </div>
-        );
+            <section className="landing">
+                <h1 className="name"> Capri Lewis
+                <p>Software Developer</p> </h1>
+                <img src={Pic} />
+            </section>
+            
+        )
     }
-}
+    }
 
 export default LandingPage;

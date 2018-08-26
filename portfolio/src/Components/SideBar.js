@@ -1,35 +1,21 @@
-import React, { Component } from 'react';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+// import React, { Component } from 'react';
+// import { Nav, NavItem, NavLink } from 'reactstrap';
 
 
-class SideBar extends Component {
-    render(){
-        return(
-        <div>
-            <Nav className="navigation">
-                <NavItem className="tab">
-                    <NavLink className="text" href="/"> Home</NavLink>
-                </NavItem>
-                <NavItem className="tab">
-                    <NavLink className="text" href="About-CapriLewis"> About </NavLink>
-                </NavItem>
-                <NavItem className="tab">
-                    <NavLink className="text" href="Projects-CapriLewis"> Projects </NavLink>
-                </NavItem>
-                <NavItem className="tab">
-                    <NavLink className="text" href="Blog-CapriLewis"> Blog  </NavLink>
-                </NavItem>
-                <NavItem className="tab">
-                    <NavLink className="text" href="Resume-CapriLewis"> Resume  </NavLink>
-                </NavItem>
-                <NavItem className="tab">
-                    <NavLink className="text" href="Contact-CapriLewis"> Contact  </NavLink>
-                </NavItem>
-                
-               </Nav>
-             </div>
-        );
-    }
-}
+// class SideBar extends Component {
+//     render(){
+//         return(
+//         <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+//   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+//     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+//     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+//     <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+//     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+//   </div>
+// </div>
+             
+//         );
+//     }
+// }
 
-export default SideBar;
+// export default SideBar;
