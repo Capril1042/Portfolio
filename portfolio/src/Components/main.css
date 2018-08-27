@@ -15,16 +15,26 @@ height:100vh;
   text-align: center;
   font-family: 'Copse';
   font-size: 3em;
-  color: #f2f2f2;
+  color: #BCBCBE;
+}
+
+.projects {
+  background:#001133;
 }
 
 .contact {
   height:90vh;
 }
 
+.resume {
+  height:100vh;
+  background-color: #A9754F;
+}
+
 landing .name  {
  justify-content:center;
  text-align:center;
+
 }
 
 .contact {
@@ -77,8 +87,8 @@ background-color: #485167;
 
 }
 
-.me {
-  flex:auto;
+.about {
+  
   background-color: #BCBCBE;
 }
 
@@ -92,18 +102,22 @@ background-color: #485167;
   width:55%
 }
 
-iframe{
+iframe {
   margin-bottom:5%;
-  margin-left:20%;
+  margin-left:25%;
+  height: 80vh;
+  width:50%;
 }
 
 .slides {
-  height:70%;
-  width:80%;
-  margin-left:10%;
+  margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height:80vh;
+  border-radius:0;
 }
 
-img  {
+.myPic {
    display: block;
     margin-left: auto;
     margin-right: auto;

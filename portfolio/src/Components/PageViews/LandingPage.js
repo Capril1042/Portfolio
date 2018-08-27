@@ -12,7 +12,7 @@ class LandingPage extends Component {
             <section id="home"className="landing">
                 <h1 className="name"> Capri Lewis
                 <p>Software Developer</p> </h1>
-                <img src={Pic} />
+                <img className="myPic"src={Pic} />
             </section>
             
         )

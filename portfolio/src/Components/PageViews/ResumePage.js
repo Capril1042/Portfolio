@@ -2,18 +2,16 @@ import React, { Component } from 'react';
 
 import Resume from '../Resume';
 
+import '../main.css'
 
 class ResumePage extends Component {
     render(){
         return(
-            <div>
-            <div id="resume">
-            
-                <div className="what"> Check out my Resume
-                </div >
-                    <Resume/>
-                </div>
-            </div>
+           <section id="resume" className="resume">
+                      <div>
+        <iframe className="resumePDF" src="https://drive.google.com/file/d/1ULj8a-CnqY9qHD-j6wNPsliVtTvesrWq/preview"></iframe>
+      </div>
+            </section>
         );
     }
 }
