@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
 
-class BlogPage extends Component {
-    render(){
-        return(
-            <div>
+// class BlogPage extends Component {
+//     render(){
+//         return(
+//             <div id="blog">
              
-            Blog Page
-            </div>
-        );
-    }
-}
+//             Blog Page
+//             </div>
+//         );
+//     }
+// }
 
-export default BlogPage;
+// export default BlogPage;

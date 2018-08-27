@@ -6,7 +6,7 @@ import Slides from '../Slides';
 class ProjectPage extends Component {
     render(){
         return(
-            <div>
+            <div id="projects">
          
              <div className="what">
                     A few Projects I've worked on...

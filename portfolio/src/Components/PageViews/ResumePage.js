@@ -7,7 +7,7 @@ class ResumePage extends Component {
     render(){
         return(
             <div>
-            <div>
+            <div id="resume">
             
                 <div className="what"> Check out my Resume
                 </div >

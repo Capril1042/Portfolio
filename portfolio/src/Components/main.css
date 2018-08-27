@@ -3,16 +3,14 @@ body {
   font-family: 'Copse';
   
 }
-
-
-
 section {
 padding-top:5%;
+height:100vh;
 }
 
 .landing {
   width:100%;
-  height:auto;
+  height:100vh;
   background: black;
   text-align: center;
   font-family: 'Copse';
@@ -20,12 +18,29 @@ padding-top:5%;
   color: #f2f2f2;
 }
 
+.contact {
+  height:90vh;
+}
+
 landing .name  {
  justify-content:center;
  text-align:center;
 }
 
+.contact {
+  width:100%;
+  height:100vh;
+  background: black;
+  text-align: center;
+  font-family: 'Copse';
+  font-size: 2em;
+  color: #f2f2f2;
 
+}
+
+.me  {
+  font-size: 2em;
+}
 .text:hover {
   color: #D1B894;
 }
@@ -92,8 +107,8 @@ img  {
    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height:50%;
+    width: auto;
+    height:auto;
   border-radius:50%;
 
   }
@@ -106,6 +121,42 @@ img  {
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width:26%;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 
 
 /* 

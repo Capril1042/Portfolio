@@ -9,7 +9,7 @@ const Pic = require('../../assets/profilepic.jpg');
 class LandingPage extends Component {
     render(){
         return(
-            <section className="landing">
+            <section id="home"className="landing">
                 <h1 className="name"> Capri Lewis
                 <p>Software Developer</p> </h1>
                 <img src={Pic} />
