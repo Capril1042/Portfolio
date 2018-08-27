@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import SideBar from '../SideBar'
-import Landing from '../Landing'
 import '../main.css'
 
 
@@ -12,7 +10,7 @@ class LandingPage extends Component {
             <section id="home"className="landing">
                 <h1 className="name"> Capri Lewis
                 <p>Software Developer</p> </h1>
-                <img className="myPic"src={Pic} />
+                <img className="myPic" src={Pic} />
             </section>
             
         )

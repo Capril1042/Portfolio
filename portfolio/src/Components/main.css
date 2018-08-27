@@ -3,6 +3,29 @@ body {
   font-family: 'Copse';
   
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width:26%;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: pink;
+}
+
 section {
 padding-top:5%;
 height:100vh;
@@ -18,8 +41,53 @@ height:100vh;
   color: #BCBCBE;
 }
 
+landing .name  {
+ justify-content:center;
+ text-align:center;
+}
+
+.myPic {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height:auto;
+  border-radius:50%;
+}
+
+.about {
+  width:100%;
+  display:inline-flex;
+  background-color: #BCBCBE;
+  width:100%;
+  height:100vh;
+  text-align: center;
+  font-family: 'Copse';
+  font-size: 3em;
+  color: #001133;
+}
+
+.about p {
+  width:60%;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .projects {
   background:#001133;
+  justify-content: center;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.workPiece {
+  height:25vh;
+  width:50%%;
+  padding:5%;
+  margin:6%;
 }
 
 .contact {
@@ -31,10 +99,11 @@ height:100vh;
   background-color: #A9754F;
 }
 
-landing .name  {
- justify-content:center;
- text-align:center;
-
+iframe {
+  margin-bottom:5%;
+  margin-left:25%;
+  height: 80vh;
+  width:50%;
 }
 
 .contact {
@@ -48,197 +117,8 @@ landing .name  {
 
 }
 
-.me  {
-  font-size: 2em;
-}
-.text:hover {
-  color: #D1B894;
-}
 
-.tab:hover {
-background-color: #485167;
-}
-
-/* .landing {
-  text-align: center;
-  font-family: 'Copse';
-  margin: 20%;
-  font-size: 3em;
-  height:90%;
-  color:#48516
-7
-} */
-
-.about{
-  width:100%;
-  display:inline-flex;
-}
-.words {
-  color:#485167;
-  flex:auto;
-  font-family: 'Copse';
-  background-color: #D1B894;
-  width:50%;
-  margin-top: 1%;
-  margin-left: 5%;
-  margin-bottom: 5%;
-  padding:5%;
-  box-shadow: 2px 2px 1px 2px #A9754F;
-
-}
-
-.about {
   
-  background-color: #BCBCBE;
-}
-
-.what {
-  color: #485167;
-  font-family: 'Copse';
-  font-size:3em;
-  margin-left:2%;
-  margin-top:2%;
-  padding-bottom:0;
-  width:55%
-}
-
-iframe {
-  margin-bottom:5%;
-  margin-left:25%;
-  height: 80vh;
-  width:50%;
-}
-
-.slides {
-  margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    height:80vh;
-  border-radius:0;
-}
-
-.myPic {
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height:auto;
-  border-radius:50%;
-
-  }
 
 
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  width:26%;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-}
-
-/* Navbar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
-
-
-/* 
-div .wrapper {
-  display:flex;
-  flex-direction: row;
-  
-}
-
-div .sidebar {
-  flex: 1 1 auto;
-  margin: 2.5% 0% 2.5% 0  ;
-  padding: 10px;
-  width: 200px;
-  background-color: #ffad99;
-  position: fixed;
-  height: 90%;
-  overflow: auto;
-  border-radius: 35px;
-  }
-
-.sidebar a {
-  display: flex;
-  color: #003300;
-  padding: 30px;
-  text-decoration: none;
-  border-radius:35px;
-}
- 
-.sidebar a:active {
-  background-color: #ffd1b3;
-  color: #669900;
-  border-radius: 35px;
-}
-
-.sidebar a:hover:not(:active) {
-  background-color: #ffccb3;
-  color: #669900;
-}
-
-div .title {
-  flex: 2  2 auto;
-  padding: 150px;
-  margin: 10% 0 0 0;
-  height: auto;
-  text-align: center;
-  justify-content: center;
-  font-size:80px
-  
-}
-
-.name {
-font-size:80px
-}
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-} */
