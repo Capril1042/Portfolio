@@ -6,7 +6,7 @@ class AboutMePage extends Component {
         return(
             <section id="about" className="about">
                 <p>My love of learning and challenges, inspired me to 
-                    me to become a Software Developer.</p>
+                 become a Software Developer.</p>
             </section>
             );
     }
