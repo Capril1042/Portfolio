@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 
+
 import '../main.css'
 
 let iconStyle = {
@@ -30,7 +31,9 @@ class ContactPage extends Component {
         return(
             <section id ="contact" className="contact">
                       <div className="container">
-                    <Form  className="form" name="contact" method="POST" netlify>
+
+                    <Form >
+                    <input type="hidden" name="contact" value="contact" />
                         <h2 className="header"> Contact Me! </h2>
                             <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
                                 <Label >Name: </Label> 
@@ -50,8 +53,9 @@ class ContactPage extends Component {
                             <FormGroup>
                                 <Button className="sendbutton" type="submit">Send</Button>
                             </FormGroup>
-                    </Form>
-                    
+                                                   </Form>
+              
+                 
                    </div>
                    <div className="line">
            <ColoredLine/>
