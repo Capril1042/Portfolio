@@ -44,7 +44,7 @@ const cardData = [
     projectBlurb: "coming soon",
     
     },
-    
+   
 
 ];
 

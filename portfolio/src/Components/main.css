@@ -33,17 +33,60 @@ height:100vh;
 .landing {
   width:100%;
   height:100vh;
-  background: black;
+  background:linear-gradient(-90deg, black, grey);
   text-align: center;
   font-family: 'Copse';
   font-size: 3em;
-  color: #BCBCBE;
+  color: #b3b3b3;
+  overflow:hidden;
+ 
 }
 
 landing .name  {
  justify-content:center;
  text-align:center;
 }
+
+.intro {
+  padding-top:30vh;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.name { 
+  animation: showup 7s infinite;
+}
+
+.title {
+  animation: reveal 7s infinite;
+}
+
+.title span {
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:400px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:440px;}
+}
+
 
 .myPic {
    display: block;
