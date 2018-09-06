@@ -89,28 +89,30 @@ landing .name  {
 
 
 .myPic {
-   display: block;
+   display: flex;
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    height:auto;
+    height:30vh;
   border-radius:50%;
 }
 
 .about {
   width:100%;
-  display:inline-flex;
-  background-color: #BCBCBE;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #0d0d0d;
   width:100%;
   height:100vh;
   text-align: center;
   font-family: 'Copse';
   font-size: 3em;
-  color: #001133;
+  color: #bfbfbf;
 }
 
 .about p {
-  width:60%;
+  width:75%;
   font-size: 1em;
   margin-left: auto;
   margin-right: auto;
@@ -118,7 +120,7 @@ landing .name  {
 
 
 .projects {
-  background:#001133;
+  background:#262626;
   width:100%;
 }
 
@@ -135,7 +137,7 @@ landing .name  {
 
 .resume {
   height:100vh;
-  background-color: #A9754F;
+  background-color: #404040;
 }
 
 iframe {
@@ -148,7 +150,7 @@ iframe {
 .contact {
   width:100%;
   height:100vh;
-  background: black;
+  background: #0d0d0d;
   text-align: center;
   justify-content:center;
   font-family: 'Copse';

@@ -15,7 +15,7 @@ const cardData = [
         
         ] ,
 
-    projectBlurb: " Capstone Project for Lambda School",
+    projectBlurb: " An educational tool allowing teachers to quiz students. Capstone Project for Lambda School.",
     
     },
 
@@ -29,7 +29,7 @@ const cardData = [
         "HTML",
         "Bootstrap"
         ],
-    projectBlurb: "Organization tool to track fitnessjourney"
+    projectBlurb: "Organizational tool for users to track their fitness journey"
     
     },
 

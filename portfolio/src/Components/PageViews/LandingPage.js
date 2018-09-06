@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../main.css'
 
 
-const Pic = require('../../assets/profilepic.jpg');
+
 
 class LandingPage extends Component {
     render(){
@@ -19,7 +19,7 @@ class LandingPage extends Component {
                     </div>
                 </div>
                 
-                {/* <img className="myPic" src={Pic} /> */}
+                
             </section>
  
         )
