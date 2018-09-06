@@ -42,7 +42,7 @@ class ContactPage extends Component {
 
                             <FormGroup  row className="mb-2 mr-sm-2 mb-sm-0">
                                 <Label>Email: </Label> 
-                                    <Input type="text" name="name" />
+                                    <Input type="email" name="email" />
                             </FormGroup>
 
                             <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
