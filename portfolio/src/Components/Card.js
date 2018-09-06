@@ -34,7 +34,7 @@ Card.propTypes = {
   card: PropTypes.shape({
     projectName: PropTypes.string,
     projectImage: PropTypes.string,
-    projectStack: PropTypes.arrayOf(PropTypes.string),
+    projectStack: PropTypes.array,
     projectBlurb: PropTypes.string,
     projectURL: PropTypes.string
   })

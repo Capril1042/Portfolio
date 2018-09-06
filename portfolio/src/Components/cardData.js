@@ -37,10 +37,14 @@ const cardData = [
     projectName: "Coming Soon",
     projectImage: "COmingSoon",
     projectURL: "COming soon",
-    projectStack: "coming soon",
+    projectStack: [
+        "coming soon",
+        
+    ],
     projectBlurb: "coming soon",
     
     },
+    
 
 ];
 

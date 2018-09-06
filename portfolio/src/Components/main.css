@@ -123,36 +123,40 @@ width:50%
 .carddisplay {
   display:flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   width:100%;
 
 }
 
 .cardcontainer {
-
-  
+   display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
 .card {
 border:2px solid #A9754F;
-  border-radius:2px;
-  height: 25vh;
-  width: auto;
+  border-radius:7px;
+  margin: 2%;
+  height: 28vh;
+  width: 40%;
+  background: #c2c2a3;
+  
 }
 
 .cardheader {
   font-family: 'Copse';
-  font-size: 1.5em;
+  font-size: 2em;
   color: black;
   text-align: center;
   justify-content:center;
-  height:25%;
+  height:30%;
 }
 
 .cardfooter {
   font-family: 'Copse';
-  font-size: 1.5em;
+  font-size: 2em;
   color: black;
   text-align: center;
   justify-content:center;
@@ -172,6 +176,9 @@ border:2px solid #A9754F;
   height:10%;
   width:30%;
   margin:2%;
+  font-family: 'Copse';
+  font-size: 1.25em;
+  color: black;
 }
 
 
