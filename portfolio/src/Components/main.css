@@ -3,9 +3,9 @@ body {
   font-family: 'Copse'; 
 }
 
-::-webkit-scrollbar { 
+/* ::-webkit-scrollbar { 
     display: none; 
-}
+} */
 
 #navbar {
   overflow: hidden;
@@ -34,16 +34,15 @@ body {
 }
 
 section {
-padding-top:5%;
 height:100vh;
 }
 
-
+/* landing page */
 
 .landing {
   width:100%;
   height:100vh;
-  background:linear-gradient(-90deg, black, grey);
+  background:black;
   text-align: center;
   font-family: 'Copse';
   font-size: 3em;
@@ -55,6 +54,7 @@ height:100vh;
 landing .name  {
  justify-content:center;
  text-align:center;
+   
 }
 
 .intro {
@@ -63,16 +63,19 @@ landing .name  {
   overflow:hidden;
   white-space:nowrap;
 }
+
 .name { 
     animation: fadein 5s 1;
   }
 
 .title {
   animation: fadeinslower 6s 1;
-  
 }
 
-
+.downicon {
+  animation: fadeinslowest 8s 1;
+  
+}
 
 @keyframes fadein {
   0% {opacity:0;}
@@ -92,30 +95,16 @@ landing .name  {
   100%{opacity:1;}
 }
 
-
-.downicon {
-  animation: fadeinslowest 10s 1;
-  
-}
-
 @keyframes fadeinslowest {
   0% {opacity:0;}
   20%{opacity:0;}
-  40%{opacity:0.3;}
+  40%{opacity:0;}
   60%{opacity:0.5;}
-  80%{opacity:0.7;}
+  80%{opacity:0.8;}
   100%{opacity:1;}
 }
 
-
-.myPic {
-   display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height:30vh;
-  border-radius:50%;
-}
+/* about page */
 
 .about {
   width:100%;
@@ -129,32 +118,117 @@ landing .name  {
   font-family: 'Copse';
   font-size: 3em;
   color: #bfbfbf;
+  }
+
+.myPic {
+   display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height:30vh;
+  border-radius:50%;
+  margin-top: 5%;
 }
 
-
 .about p {
-  width:75%;
+  width:65%;
   font-size: 1em;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
 }
 
+.aboutme {
+  font-size:.5em;
+}
+
+.about a  {
+  width:100%;
+  
+}
+
+/* projects page */
 
 .projects {
   background:#262626;
   width:100%;
+  height:100vh;
+  display:flex;
+  }
+
+.projectpage {
+  padding-top:5%;
 }
 
-.workPiece {
-  height:25vh;
-  width:50%%;
-  padding:5%;
-  margin:6%;
+.carddisplay {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:100%;
+  }
+
+.cardcontainer {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:auto;
 }
 
-.contact {
-  height:90vh;
+.card {
+border:2px solid black;
+border-radius:8px;
+margin: 2%;
+height: 26vh;
+width: 35%;
+background: #f2f2f2;
 }
+
+.cardheader {
+  font-family: 'Copse';
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  justify-content:center;
+  text-decoration: underline;
+  height:30%;
+}
+
+.cardfooter {
+  font-family: 'Copse';
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  justify-content:center;
+  padding-bottom:1%;
+}
+.projectbuttons {
+  box-shadow: 2px 2px 3px #999;
+  background:#ccffff ;
+}
+ .projectbuttons >a {
+   color: black;
+ }
+
+.cardbody {
+  width:100%;
+  display:flex;
+}
+.cardimage, .cardstack, .cardblurb {
+  height:10%;
+  width:30%;
+  margin:2%;
+  font-family: 'Copse';
+  font-size: 1.25em;
+  color: black;
+}
+.projects i{
+  width:5%;
+  margin-left:49%;
+}
+
+/* resume page */
 
 .resume {
   height:100vh;
@@ -164,9 +238,16 @@ landing .name  {
 iframe {
   margin-bottom:5%;
   margin-left:25%;
+  margin-top:5%;
   height: 80vh;
   width:50%;
 }
+
+/* contact page */
+.contact {
+  height:90vh;
+}
+
 
 .contact {
   width:100%;
@@ -186,66 +267,6 @@ padding:2%;
 width:50%
 }
 
-.carddisplay {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width:100%;
-
-}
-
-.cardcontainer {
-   display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.card {
-border:2px solid #A9754F;
-  border-radius:7px;
-  margin: 2%;
-  height: 28vh;
-  width: 40%;
-  background: #c2c2a3;
-  
-}
-
-.cardheader {
-  font-family: 'Copse';
-  font-size: 2em;
-  color: black;
-  text-align: center;
-  justify-content:center;
-  height:30%;
-}
-
-.cardfooter {
-  font-family: 'Copse';
-  font-size: 2em;
-  color: black;
-  text-align: center;
-  justify-content:center;
-}
-.projectbuttons {
-  background:#A9754F ;
-}
- .projectbuttons >a {
-   color: black;
- }
-
-.cardbody {
-  width:90%;
-  display:flex;
-}
-.cardimage, .cardstack, .cardblurb {
-  height:10%;
-  width:30%;
-  margin:2%;
-  font-family: 'Copse';
-  font-size: 1.25em;
-  color: black;
-}
 
 
   

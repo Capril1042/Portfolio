@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../main.css'
 
 
-let styled ={
+let styled = {
     fontSize:"48px",
     color:"hotpink",
 }
@@ -16,7 +16,7 @@ class LandingPage extends Component {
                         Capri Lewis
                     </div> 
                     <p className="title"> 
-                        Software Developer
+                        Software Developer.
                     </p>
                     <a href="#about">
                         <i className="fa fa-angle-double-down downicon" style={styled}>
@@ -24,9 +24,8 @@ class LandingPage extends Component {
                     </a>
                 </div>
             </section>
- 
         )
     }
-    }
+}
 
 export default LandingPage;

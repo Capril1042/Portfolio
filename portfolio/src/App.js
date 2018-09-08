@@ -12,16 +12,15 @@ import Navigation from './Components//Navigation'
 class App extends Component {
   render() {
     return (
-    <div>
-    <Navigation/>
-    <LandingPage />
-    <AboutMePage />
-    <ProjectPage />
-    {/* <BlogPage/> */}
-    <ResumePage/>
-    <ContactPage />
-   
-  </div>
+      <div>
+        <Navigation/>
+        <LandingPage />
+        <AboutMePage />
+        <ProjectPage />
+        {/* <BlogPage/> */}
+        <ResumePage/>
+        <ContactPage />
+      </div>
     );
   }
 }
