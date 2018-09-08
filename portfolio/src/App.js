@@ -7,7 +7,7 @@ import ContactPage from './Components/PageViews/ContactPage'
 import LandingPage from './Components/PageViews/LandingPage'
 import ProjectPage from './Components/PageViews/ProjectPage'
 import ResumePage from './Components/PageViews/ResumePage'
-import Navigation from './Components/Navigation'
+import Navigation from './Components//Navigation'
 
 class App extends Component {
   render() {

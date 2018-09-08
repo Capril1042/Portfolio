@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Navigation extends Component {
     render(){
         return(
- <div className="navbar">
+ <div id="navbar">
  <a href="#home">Home</a>
   <a href="#about">About Me</a>
   <a href="#projects">Projects</a>
