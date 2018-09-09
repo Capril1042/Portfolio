@@ -9,16 +9,17 @@ body {
 
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #A9754F;
   position: fixed;
   width:25%;
-  padding-left:8px;
   opacity: 0;
-  border-radius:5px;
+  border-radius:7px;
+  margin:1%;
+  padding-left:1%
   }
 
 #navbar:hover {
-  opacity:0.5;
+  opacity:1;
 }
 #navbar a {
   float: left;
@@ -30,7 +31,7 @@ body {
 }
 
 #navbar a:hover{
-  color: pink;
+  color: hotpink;
 }
 
 section {
@@ -215,6 +216,7 @@ background:  #a3c2c2;
   width:100%;
   display:flex;
 }
+
 .cardimage, .cardstack, .cardblurb {
   height:10%;
   width:30%;
@@ -287,7 +289,7 @@ border-radius:7px;
 
 
   
-@media only screen and (min-device-width : 300px) and (max-device-width : 667px) {
+@media only screen and (min-device-width : 300px) and (max-device-width : 736px) {
 body {
   background:black;
 }
@@ -311,22 +313,37 @@ body {
 
 .landing {
   padding-top:50px; 
-}
-.myPic {
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height:auto;
-  border-radius:50%;
-}
-.workPiece {
-  height:25vh;
-  width:50%;
-  padding-top:5%;
-  margin:0;
+  font-size: 2em;
 }
 
+.about {
+  font-size:2em;
+}
+
+.myPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5%;
+  width: 38vw;
+  height:20vh;
+  border-radius:50%;
+}
+
+.cardheader {
+  font-size:1.5em;
+}
+.cardimage{
+width:80%;
+margin:auto;
+}
+
+.cardfooter {
+  font-size:1em;
+}
+.cardstack, .cardblurb {
+  display:none;
+}
 .contact a{
   height: 30vh;
 }
