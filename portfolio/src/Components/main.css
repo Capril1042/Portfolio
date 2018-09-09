@@ -46,7 +46,7 @@ height:100vh;
   background:black;
   text-align: center;
   font-family: 'Copse';
-  font-size: 3em;
+  font-size: 3rem;
   color: #b3b3b3;
   overflow:hidden;
  
@@ -113,11 +113,11 @@ landing .name  {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #0d0d0d;
-  width:100%;
+  width:100vw;
   height:100vh;
   text-align: center;
   font-family: 'Copse';
-  font-size: 3em;
+  font-size: 3rem;
   color: #bfbfbf;
   }
 
@@ -133,18 +133,18 @@ landing .name  {
 
 .about p {
   width:65%;
-  font-size: 1em;
+  font-size: 2rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
 }
 
 .aboutme {
-  font-size:.5em;
+  font-size:.5rem;
 }
 
 .about a  {
-  width:100%;
+  width:100vw;
   
 }
 
@@ -152,7 +152,7 @@ landing .name  {
 
 .projects {
   background:#262626;
-  width:100%;
+  width:100vw;
   height:100vh;
   display:flex;
   }
@@ -182,13 +182,13 @@ border:2px solid black;
 border-radius:8px;
 margin: 2%;
 height: 26vh;
-width: 35%;
+width: 35vw;
 background:  #a3c2c2;
 }
 
 .cardheader {
   font-family: 'Copse';
-  font-size: 2em;
+  font-size: 2rem;
   color: #1a1a1a;
   text-align: center;
   justify-content:center;
@@ -222,7 +222,7 @@ background:  #a3c2c2;
   width:30%;
   margin:2%;
   font-family: 'Copse';
-  font-size: 1.25em;
+  font-size: 1em;
   color: #1a1a1a;
 }
 .projects i{
@@ -289,7 +289,7 @@ border-radius:7px;
 
 
   
-@media only screen and (min-device-width : 300px) and (max-device-width : 736px) {
+@media only screen and (min-device-width : 200px) and (max-device-width : 900px) {
 body {
   background:black;
 }
@@ -376,6 +376,17 @@ padding:10%;
     width: 100%;
     margin-top: 0;
   }
+}
+
+@media only screen and (min-device-width : 781px) and (max-device-width : 1338px), (max-width: 1400px) {
+.cardstack, .cardblurb {
+  display:none;
+}
+.cardimage{
+width:70%;
+height:50px;
+margin:auto;
+}
 }
 
 
