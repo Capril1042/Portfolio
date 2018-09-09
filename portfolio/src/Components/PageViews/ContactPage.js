@@ -36,12 +36,8 @@ class ContactPage extends Component {
         return(
             <section id ="contact" className="contact">
                 <div className="container">
-                    <Form name="contactform" 
-                    method="post"
-                    data-netlify="true" 
-                    data-netlify-honeypot="bot-field"
-                    action="#contact">
-                        <input type="hidden" name="contactform" value="contactform" />
+                    <Form name="contactform">
+                        <input type="hidden" name="form-name" value="contactform" />
                             <h2 className="header"> Contact Me! </h2>
                                 <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
                                     <Label >Name: </Label> 
@@ -59,6 +55,7 @@ class ContactPage extends Component {
                                     <Button className="sendbutton" type="submit">Send</Button>
                                 </FormGroup>
                      </Form>
+         
                     <div className="line">
                         <ColoredLine/>
                     </div>
