@@ -13,6 +13,11 @@ let iconStyle = {
     
 };
 
+let styled = {
+    fontSize:"48px",
+    color:"hotpink",
+    }
+
 const ColoredLine = ({ color }) => (
     <hr
         style={{
@@ -30,41 +35,40 @@ class ContactPage extends Component {
     render(){
         return(
             <section id ="contact" className="contact">
-                      <div className="container">
-
+                <div className="container">
                     <Form >
-                    <input type="hidden" name="contact" value="contact" />
-                        <h2 className="header"> Contact Me! </h2>
-                            <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
-                                <Label >Name: </Label> 
+                        <input type="hidden" name="contact" value="contact" />
+                            <h2 className="header"> Contact Me! </h2>
+                                <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
+                                    <Label >Name: </Label> 
                                     <Input type="text" name="name" />
-                            </FormGroup>
-
-                            <FormGroup  row className="mb-2 mr-sm-2 mb-sm-0">
+                                </FormGroup>
+                                <FormGroup  row className="mb-2 mr-sm-2 mb-sm-0">
                                 <Label>Email: </Label> 
                                     <Input type="email" name="email" />
-                            </FormGroup>
-
-                            <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
-                                <Label >Message: </Label>
+                                </FormGroup>
+                                <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
+                                    <Label >Message: </Label>
                                     <Input type="textarea" name="message"/>
-                            </FormGroup >
-
-                            <FormGroup>
-                                <Button className="sendbutton" type="submit">Send</Button>
-                            </FormGroup>
-                                                   </Form>
+                                </FormGroup >
+                                <FormGroup>
+                                    <Button className="sendbutton" type="submit">Send</Button>
+                                </FormGroup>
+                     </Form>
+                    <div className="line">
+                        <ColoredLine/>
+                    </div>
               
-                 
-                   </div>
-                   <div className="line">
-           <ColoredLine/>
-           </div>
-           <div className="contactbuttons">
-           <a  class="btn btn-large btn primary" href="mailto:caprilewis1042@gmail.com"><i className="fa fa-envelope" style={iconStyle}></i></a>
-           <a class="btn btn-large btn primary" href="https://www.linkedin.com/in/capri-lewis-64a73410b/"><i className="fa fa-linkedin-square" style ={iconStyle}></i> </a>
-           <a class="btn btn-large btn primary" href="https://github.com/Capril1042"><i className="fa fa-github" style ={iconStyle}></i></a>
-           </div>
+                </div>
+                    <div className="contactbuttons">
+                        <a  class="btn btn-large btn primary" href="mailto:caprilewis1042@gmail.com"><i className="fa fa-envelope" style={iconStyle}></i></a>
+                        <a class="btn btn-large btn primary" href="https://www.linkedin.com/in/capri-lewis-64a73410b/"><i className="fa fa-linkedin-square" style ={iconStyle}></i> </a>
+                        <a class="btn btn-large btn primary" href="https://github.com/Capril1042"><i className="fa fa-github" style ={iconStyle}></i></a>
+                    </div>
+                    <a href="#home">
+                            <i className="fa fa-angle-double-up upicon" style={styled}>
+                            </i>
+                        </a>
             </section>
         );
     }
