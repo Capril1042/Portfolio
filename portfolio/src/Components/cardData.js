@@ -15,7 +15,7 @@ const cardData = [
         
         ] ,
 
-    projectBlurb: " An educational tool allowing teachers to quiz students. Capstone Project for Lambda School.",
+    projectBlurb: " An educational tool allowing teachers to quiz students.",
     
     },
 

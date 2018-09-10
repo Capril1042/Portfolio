@@ -20,9 +20,9 @@ class Card extends Component {
                 <CardBody
                     projectImage= {this.props.card.projectImage}
                     projectStack= {this.props.card.projectStack}
-                    projectBlurb= {this.props.card.projectBlurb}
                     />
                 <CardFooter
+                    projectBlurb= {this.props.card.projectBlurb}
                     projectURL={this.props.card.projectURL}
                     />
             </div>

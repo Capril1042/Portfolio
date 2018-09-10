@@ -12,7 +12,7 @@ const stack = stackList.map((item)=>
 );
   return (
     <div className="cardbody">
-     <img className="cardimage"src={props.projectImage} />
+     <img className="cardimage"  src={props.projectImage} />
     
      <div className="cardstack">
      
@@ -22,9 +22,7 @@ const stack = stackList.map((item)=>
      
     </div>
 
-    <div className="cardblurb">
-      {props.projectBlurb}
-    </div>
+    
 
     </div>
       

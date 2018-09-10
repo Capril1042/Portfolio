@@ -4,7 +4,12 @@ import { Button } from 'reactstrap';
 const CardFooter = props => {
   return (
     <div className="cardfooter">
-     <Button className="projectbuttons"> <a href={props.projectURL}>View</a> </Button>
+    <div className="cardblurb">
+      {props.projectBlurb}
+    </div>
+    <div className="projectbuttons">
+     <Button className="pbutton">  <a href={props.projectURL}>View</a> </Button>
+     </div>
     </div>
   );
 };

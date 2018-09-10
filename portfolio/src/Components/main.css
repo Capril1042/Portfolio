@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Copse'; 
+  background: black;
 }
 
 /* ::-webkit-scrollbar { 
@@ -36,20 +37,21 @@ body {
 
 section {
 height:100vh;
+width:100vw;
 }
 
 /* landing page */
 
 .landing {
-  width:100%;
+  width:100vw;
   height:100vh;
   background:black;
   text-align: center;
-  font-family: 'Copse';
+  justify-content:center;
+  font-family:'Copse';
   font-size: 3rem;
   color: #b3b3b3;
-  overflow:hidden;
- 
+  overflow:hidden; 
 }
 
 landing .name  {
@@ -63,6 +65,8 @@ landing .name  {
   display:inline-block;
   overflow:hidden;
   white-space:nowrap;
+  justify-content:center;
+ text-align:center;
 }
 
 .name { 
@@ -75,6 +79,7 @@ landing .name  {
 
 .downicon {
   animation: fadeinslowest 8s 1;
+  justify-content:center;
   
 }
 
@@ -108,57 +113,57 @@ landing .name  {
 /* about page */
 
 .about {
-  width:100%;
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: #0d0d0d;
   width:100vw;
   height:100vh;
   text-align: center;
-  font-family: 'Copse';
-  font-size: 3rem;
+  justify-content:center;
+  font-family: 'Roboto';
   color: #bfbfbf;
+  overflow:hidden;
   }
 
 .myPic {
-   display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height:30vh;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height:30vh;
   border-radius:50%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .about p {
-  width:65%;
-  font-size: 2rem;
+  width:50%;
+  font-size: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  text-align:center;
 }
 
-.aboutme {
-  font-size:.5rem;
-}
 
-.about a  {
-  width:100vw;
-  
-}
+
 
 /* projects page */
 
 .projects {
   background:#262626;
+  background:black;
   width:100vw;
   height:100vh;
   display:flex;
+  overflow:hidden;
+ 
   }
 
 .projectpage {
   padding-top:5%;
+  justify-content:center;
+ 
 }
 
 .carddisplay {
@@ -166,7 +171,7 @@ landing .name  {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width:100%;
+  width:100vw;
   }
 
 .cardcontainer {
@@ -178,55 +183,110 @@ landing .name  {
 }
 
 .card {
-border:2px solid black;
-border-radius:8px;
-margin: 2%;
-height: 26vh;
-width: 35vw;
-background:  #a3c2c2;
+border:1px solid black;
+margin: 1%;
+height: 30vh;
+width: 30vw;
+background:#d1e0e0;
+
 }
 
 .cardheader {
-  font-family: 'Copse';
-  font-size: 2rem;
+  justify-content: left;
+  background-color: #b3cccc;
+  font-family: 'Roboto';
+  font-size: 1.6rem;
   color: #1a1a1a;
-  text-align: center;
-  justify-content:center;
-  text-decoration: underline;
-  height:30%;
+  text-align: left;
+  height:6vh;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding:2%;
+  
 }
 
 .cardfooter {
-  font-family: 'Copse';
-  font-size: 2em;
+  display:flex;
+  width:100%;
+  background-color: #b3cccc;
+  font-family: 'Roboto';
+  font-size: 1rem;
   color: #1a1a1a;
-  text-align: center;
-  justify-content:center;
-  padding-bottom:1%;
+  text-align: left;
+  height:9vh;
+  justify-content:left;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding-left:2%;
+  padding-top:1%;
+  overflow:hidden;
+  
+
 }
+
 .projectbuttons {
-  box-shadow: 2px 2px 3px #999;
-  background:#e0e0d1 ;
+  width:13%;
+  margin:1%;
+  padding:1%; 
 }
- .projectbuttons >a {
+
+.pbutton {
+background:#e0e0d1;
+box-shadow: 2px 2px 3px #999;
+position:relative;
+display:inline-block;
+}
+
+.pbutton:hover {
+background:white;
+}
+ .pbutton >a {
    color: black;
+   font-size:.8rem;
+   display:inline-block;
+  
  }
 
 .cardbody {
   width:100%;
-  display:flex;
+  display:inline-flex;
+  flex-direction:row;
+  background-color: #d1e0e0;
+  height: 15vh;
+
 }
 
-.cardimage, .cardstack, .cardblurb {
-  height:10%;
-  width:30%;
-  margin:2%;
-  font-family: 'Copse';
-  font-size: 1em;
-  color: #1a1a1a;
+.cardimage {
+  display:flex;
+  height:15vh;
+  width:50%;
+  padding-top:2%;
+  padding-left:5%;
+  
+  padding-right:5%;
+ 
 }
-.projects i{
-  width:5%;
+.cardstack {
+  border-left: 1px solid rgba(0,0,0,0.1);
+  display:flex;
+  text-align: left;
+  height:13vh;
+  width:50%;
+  font-family: 'Roboto';
+  font-size: .9rem;
+  color: #1a1a1a;
+  overflow:hidden;
+  padding:4%;
+  padding-left:1%;
+  margin:1%;
+}
+
+
+.cardblurb {
+  width:70%;
+  font-size:.9rem;
+  height:6vh;
+  overflow: hidden;
+}
+.icondown {
   margin-left:49%;
 }
 
@@ -245,10 +305,6 @@ iframe {
   width:50%;
 }
 
-.resume i{
-  width:5%;
-  margin-left:49%;
-}
 
 /* contact page */
 
@@ -289,7 +345,7 @@ border-radius:7px;
 
 
   
-@media only screen and (min-device-width : 200px) and (max-device-width : 900px) {
+@media only screen and (min-device-width : 200px) and (max-device-width : 480px) {
 body {
   background:black;
 }
@@ -339,7 +395,7 @@ margin:auto;
 }
 
 .cardfooter {
-  font-size:1em;
+  font-size:.5em;
 }
 .cardstack, .cardblurb {
   display:none;
@@ -378,15 +434,24 @@ padding:10%;
   }
 }
 
-@media only screen and (min-device-width : 900px) and (max-device-width : 1338px) {
+
+@media only screen and (min-device-width : 400px) and (max-device-width : 500px) {
+
+.card {
+  display:none;
+}
+
+
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+/* Styles */
 .cardstack, .cardblurb {
   display:none;
 }
-.cardimage{
-width:70%;
-height:50px;
-margin:auto;
-}
-}
 
 
+}

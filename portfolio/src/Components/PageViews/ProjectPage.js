@@ -12,10 +12,12 @@ class ProjectPage extends Component {
             <section id="projects" className="projects">
                 <div className="projectpage">
                     <CardDisplay/>
+                    <div className="icondown">
                         <a href="#resume">
                             <i className="fa fa-angle-double-down downiconB" style={styled}>
                             </i>
                         </a>
+                        </div>
                 </div>
             </section>
         );
