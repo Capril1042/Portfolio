@@ -287,7 +287,9 @@ background:white;
   overflow: hidden;
 }
 .icondown {
-  margin-left:45%;
+  width:100vw;
+  justify-content: center;
+  text-align: center;
 }
 
 /* resume page */
