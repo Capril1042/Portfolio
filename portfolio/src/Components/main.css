@@ -287,13 +287,14 @@ background:white;
   overflow: hidden;
 }
 .icondown {
-  margin-left:49%;
+  margin-left:45%;
 }
 
 /* resume page */
 
 .resume {
   height:100vh;
+  width:100vw;
   background-color: #404040;
 }
 
@@ -309,8 +310,8 @@ iframe {
 /* contact page */
 
 .contact {
-  width:100%;
   height:100vh;
+  width:100vw;
   background: #0d0d0d;
   text-align: center;
   justify-content:center;

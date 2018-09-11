@@ -37,7 +37,7 @@ class ContactPage extends Component {
             <section id ="contact" className="contact">
                 <div className="container">
                     <Form name="contactform">
-                        <input type="hidden" name="form-name" value="contactform" />
+                        <input type="hidden" name="hiddenform" value="contactform" />
                             <h2 className="header"> Contact Me! </h2>
                                 <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
                                     <Label >Name: </Label> 
