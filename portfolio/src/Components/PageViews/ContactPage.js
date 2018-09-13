@@ -31,30 +31,49 @@ const ColoredLine = ({ color }) => (
     />
 );
 
+ const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+
 class ContactPage extends Component {
+     constructor(props) {
+      super(props);
+      this.state = { name: "", email: "", message: "" };
+    }
+
+    handleSubmit = e => {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form": "contactform", ...this.state })
+      })
+        .then(() => alert("Success!"))
+        .catch(error => alert(error));
+
+      e.preventDefault();
+    };
+
+    handleChange = e => this.setState({ [e.target.name]: e.target.value });
     render(){
+        const { name, email, message } = this.state;
         return(
             <section id ="contact" className="contact">
                 <div className="container">
-                    <Form name="contactform">
-                        <input type="hidden" name="hiddenform" value="contactform" />
+                    <form name="contactform" onSubmit={this.handleSubmit}>
+                        <input type="hidden" name="form" value="contactform" />
                             <h2 className="header"> Contact Me! </h2>
-                                <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
-                                    <Label >Name: </Label> 
-                                    <Input type="text" name="name" />
-                                </FormGroup>
-                                <FormGroup  row className="mb-2 mr-sm-2 mb-sm-0">
-                                <Label>Email: </Label> 
-                                    <Input type="email" name="email" />
-                                </FormGroup>
-                                <FormGroup row className="mb-2 mr-sm-2 mb-sm-0">
-                                    <Label >Message: </Label>
-                                    <Input type="textarea" name="message"/>
-                                </FormGroup >
-                                <FormGroup>
-                                    <Button className="sendbutton" type="submit">Send</Button>
-                                </FormGroup>
-                     </Form>
+                                    <label >Name:  
+                                    <input type="text" name="name" /></label>
+                                
+                                <label>Email: <input type="email" name="email" /></label> 
+                                    
+                                    <label >Message: <textarea name="message"></textarea></label>
+                              
+                                    <button className="sendbutton" type="submit">Send</button>
+                                
+                     </form>
          
                     <div className="line">
                         <ColoredLine/>
