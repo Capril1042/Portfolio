@@ -1,5 +1,6 @@
 const spaceRace = require('../assets/spacerace.png');
 const djorg = require('../assets/Djorg.png');
+const recipe =require('../assets/recipe.png')
 
 const cardData = [
     {
@@ -34,14 +35,17 @@ const cardData = [
     },
 
     {
-    projectName: "Coming Soon",
-    projectImage: "COmingSoon",
-    projectURL: "COming soon",
+    projectName: "Recipe Tracker",
+    projectImage: `${recipe}`,
+    projectURL: "https://quiet-sea-76781.herokuapp.com",
     projectStack: [
-        "coming soon",
+        "React",
+        "Node.js",
+        "Mongo",
+        "Express",
         
     ],
-    projectBlurb: "coming soon",
+    projectBlurb: "Allows users to Add and Store Recipes",
     
     },
    

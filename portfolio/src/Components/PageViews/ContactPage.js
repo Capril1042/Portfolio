@@ -47,7 +47,7 @@ class ContactPage extends Component {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form": "contactform", ...this.state })
+        body: encode({ "form-name": "contactform", ...this.state })
       })
         .then(() => alert("Success!"))
         .catch(error => alert(error));
@@ -62,7 +62,7 @@ class ContactPage extends Component {
             <section id ="contact" className="contact">
                 <div className="container">
                     <form name="contactform" onSubmit={this.handleSubmit}>
-                        <input type="hidden" name="form" value="contactform" />
+                        <input type="hidden" name="contactform" value="contactform" />
                             <h2 className="header"> Contact Me! </h2>
                                     <label >Name:  
                                     <input type="text" name="name" /></label>
