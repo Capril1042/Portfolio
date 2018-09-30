@@ -1,6 +1,6 @@
 const spaceRace = require('../assets/spacerace.png');
 const djorg = require('../assets/Djorg.png');
-const recipe =require('../assets/recipe.png')
+const recipe = require('../assets/recipe.png')
 
 const cardData = [
     {
