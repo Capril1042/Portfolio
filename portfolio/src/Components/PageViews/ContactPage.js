@@ -31,33 +31,33 @@ const ColoredLine = ({ color }) => (
     />
 );
 
- const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
+//  const encode = (data) => {
+//     return Object.keys(data)
+//         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+//         .join("&");
+//   }
 
 class ContactPage extends Component {
-     constructor(props) {
-      super(props);
-      this.state = { name: "", email: "", message: "" };
-    }
+    //  constructor(props) {
+    //   super(props);
+    //   this.state = { name: "", email: "", message: "" };
+    // }
 
-    handleSubmit = e => {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contactform", ...this.state })
-      })
-        .then(() => alert("Success!"))
-        .catch(error => alert(error));
+    // handleSubmit = e => {
+    //   fetch("/", {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //     body: encode({ "form-name": "contactform", ...this.state })
+    //   })
+    //     .then(() => alert("Success!"))
+    //     .catch(error => alert(error));
 
-      e.preventDefault();
-    };
+    //   e.preventDefault();
+    // };
 
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
+    // handleChange = e => this.setState({ [e.target.name]: e.target.value });
     render(){
-        const { name, email, message } = this.state;
+    //     const { name, email, message } = this.state;
         return(
             <section id ="contact" className="contact">
                 {/* <div className="container">
@@ -75,13 +75,13 @@ class ContactPage extends Component {
                                 
                      </form>
          
-                    <div className="line">
-                        <ColoredLine/>
-                    </div>
               
                 </div> */}
                     <div className="contactbuttons">
                         <a  class="btn btn-large btn primary" href="mailto:caprilewis1042@gmail.com"><i className="fa fa-envelope" style={iconStyle}></i></a>
+                    <div className="line">
+                        <ColoredLine/>
+                    </div>
                         <a class="btn btn-large btn primary" href="https://www.linkedin.com/in/capri-lewis-64a73410b/"><i className="fa fa-linkedin-square" style ={iconStyle}></i> </a>
                         <a class="btn btn-large btn primary" href="https://github.com/Capril1042"><i className="fa fa-github" style ={iconStyle}></i></a>
                     </div>

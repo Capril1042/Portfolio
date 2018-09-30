@@ -131,7 +131,7 @@ landing .name  {
   margin-left: auto;
   margin-right: auto;
   width: auto;
-  height:30vh;
+  height:25%;
   border-radius:50%;
   margin-top: 10%;
 }
@@ -437,13 +437,27 @@ padding:10%;
 }
 
 
-@media only screen and (min-device-width : 400px) and (max-device-width : 500px) {
+@media only screen and (min-device-width : 400px) and (max-device-width : 780px) {
 
-.card {
-  display:none;
+
+.myPic {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height:25%;
+  border-radius:50%;
+  margin-top: 10%;
 }
 
-
+.about p {
+  width:75%;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  text-align:center;
+}
 
 }
 
