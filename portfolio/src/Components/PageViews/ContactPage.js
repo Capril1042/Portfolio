@@ -60,7 +60,7 @@ class ContactPage extends Component {
         const { name, email, message } = this.state;
         return(
             <section id ="contact" className="contact">
-                <div className="container">
+                {/* <div className="container">
                     <form name="contactform" onSubmit={this.handleSubmit}>
                         <input type="hidden" name="contactform" value="contactform" />
                             <h2 className="header"> Contact Me! </h2>
@@ -79,7 +79,7 @@ class ContactPage extends Component {
                         <ColoredLine/>
                     </div>
               
-                </div>
+                </div> */}
                     <div className="contactbuttons">
                         <a  class="btn btn-large btn primary" href="mailto:caprilewis1042@gmail.com"><i className="fa fa-envelope" style={iconStyle}></i></a>
                         <a class="btn btn-large btn primary" href="https://www.linkedin.com/in/capri-lewis-64a73410b/"><i className="fa fa-linkedin-square" style ={iconStyle}></i> </a>
