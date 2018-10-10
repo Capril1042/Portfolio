@@ -1,6 +1,7 @@
 const spaceRace = require('../assets/spacerace.png');
 const djorg = require('../assets/Djorg.png');
-const recipe = require('../assets/recipe.png')
+const recipe = require('../assets/recipe.png');
+const calcalc = require('../assets/calcalc.png');
 
 const cardData = [
     {
@@ -46,6 +47,17 @@ const cardData = [
         
     ],
     projectBlurb: "Allows users to Add and Store Recipes",
+    
+    },
+    
+    {
+    projectName: "Calorire Calculator",
+    projectImage: `${calcalc}`,
+    projectURL: "https://calcalc.netlify.com/",
+    projectStack: [
+        "React",
+    ],
+    projectBlurb: "Daily Caloric Intake Calculator",
     
     },
    
