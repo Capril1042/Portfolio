@@ -10,24 +10,26 @@ body {
 
 #navbar {
   overflow: hidden;
-  background-color: #A9754F;
+  background-color: black;
   position: fixed;
-  width:25%;
-  opacity: 0;
+  width:90%;
+  opacity: .9;
   border-radius:7px;
   margin:1%;
-  padding-left:1%
+  margin-left: 3%;
   }
 
-#navbar:hover {
+/* #navbar:hover {
   opacity:1;
-}
+  background-color: #A9754F;
+} */
+
 #navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 10px;
+  width:17vw;
   text-decoration: none;
 }
 
