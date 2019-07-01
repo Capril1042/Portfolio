@@ -4,6 +4,7 @@ import  CardDisplay from '../CardDisplay';
 let styled = {
     fontSize:"48px",
     color:"hotpink",
+    width: "100%",
     }
     
 class ProjectPage extends Component {

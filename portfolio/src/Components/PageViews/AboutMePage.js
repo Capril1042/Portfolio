@@ -4,6 +4,7 @@ import '../main.css'
 let styled = {
     fontSize:"48px",
     color:"hotpink",
+    width: "100%",
     }
 
 const Pic = require('../../assets/profilepic.jpg');

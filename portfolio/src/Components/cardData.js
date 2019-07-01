@@ -51,7 +51,7 @@ const cardData = [
     },
     
     {
-    projectName: "Calorire Calculator",
+    projectName: "Calorie Calculator",
     projectImage: `${calcalc}`,
     projectURL: "https://calcalc.netlify.com/",
     projectStack: [

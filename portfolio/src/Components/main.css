@@ -51,7 +51,7 @@ width:100vw;
   text-align: center;
   justify-content:center;
   font-family:'Copse';
-  font-size: 3rem;
+  font-size: 2rem;
   color: #b3b3b3;
   overflow:hidden; 
 }
@@ -117,7 +117,7 @@ landing .name  {
 .about {
   display:flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   background-color: #0d0d0d;
   width:100vw;
   height:100vh;
@@ -139,8 +139,8 @@ landing .name  {
 }
 
 .about p {
-  width:50%;
-  font-size: 1.5rem;
+  width:65%;
+  font-size: 1rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -319,7 +319,7 @@ iframe {
   text-align: center;
   justify-content:center;
   font-family: 'Copse';
-  font-size: 1.5em;
+  font-size: 2em;
   color: black;
 
 }
@@ -349,7 +349,7 @@ border-radius:7px;
 
 
   
-@media only screen and (min-device-width : 200px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 200px) and (max-device-width : 600px) {
 body {
   background:black;
 }
@@ -371,35 +371,48 @@ body {
   text-decoration: none;
 }
 
-.landing {
-  padding-top:50px; 
-  font-size: 2em;
-}
-
 .about {
   font-size:2em;
 }
 
-.myPic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:5%;
-  width: 38vw;
-  height:20vh;
-  border-radius:50%;
-}
+.carddisplay {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width:100vw;
+  }
 
+  .cardcontainer {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width:80%;
+    height:95vh;
+    margin: auto;
+  }
+  
+
+  .card {
+    border:1px solid black;
+    margin: 1%;
+    height: 10vh;
+    width: 60vw;
+    background:#d1e0e0;
+    margin: auto;
+    padding: auto;
+    }
 .cardheader {
-  font-size:1.5em;
+  font-size:1em;
 }
 .cardimage{
-width:80%;
+width:70%;
 margin:auto;
 }
 
 .cardfooter {
-  font-size:.5em;
+  font-size:.75em;
 }
 .cardstack, .cardblurb {
   display:none;
@@ -437,39 +450,4 @@ padding:10%;
     margin-top: 0;
   }
 }
-
-
-@media only screen and (min-device-width : 400px) and (max-device-width : 780px) {
-
-
-.myPic {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  height:25%;
-  border-radius:50%;
-  margin-top: 10%;
-}
-
-.about p {
-  width:75%;
-  font-size: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  text-align:center;
-}
-
-}
-
-
-/* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-/* Styles */
-/* .cardstack, .cardblurb {
-  display:none;
-}
-
-
-} */ 
+ 
