@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
-import cardData from './cardData';
-import CardContainer from './CardContainer';
-
+import React, { Component } from "react";
+import cardData from "./cardData";
+import CardContainer from "./CardContainer";
 
 class CardDisplay extends Component {
   constructor() {
     super();
     this.state = {
-      cards: [],
+      cards: []
     };
   }
   componentDidMount() {
@@ -17,9 +16,7 @@ class CardDisplay extends Component {
   render() {
     return (
       <div className="carddisplay">
-        <CardContainer
-          cards={this.state.cards}
-        />
+        <CardContainer cards={this.state.cards} />
       </div>
     );
   }
