@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import AboutMePage from './Components/PageViews/AboutMePage'
+import AboutMePage from './Components/PageViews/AboutMe/AboutMePage'
 // import BlogPage from './Components/PageViews/BlogPage'
 import ContactPage from './Components/PageViews/ContactPage'
 import LandingPage from './Components/PageViews/LandingPage/LandingPage'
