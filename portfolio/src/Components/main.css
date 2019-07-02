@@ -43,24 +43,6 @@ width:100vw;
 }
 
 
-
-/* resume page */
-
-.resume {
-  height:100vh;
-  width:100vw;
-  background-color: #404040;
-}
-
-iframe {
-  margin-bottom:1%;
-  margin-left:25%;
-  margin-top:5%;
-  height: 80vh;
-  width:50%;
-}
-
-
 /* contact page */
 
 .contact {
@@ -137,17 +119,7 @@ body {
 .contactbuttons {
   height:90vh;
 }
-iframe {
-  margin-bottom:5%;
-  margin-left:20%;
-  height: 30vh;
-  width:60%;
 
-}
-.resumePDF{
-  margin-top: 10%;
-padding:10%;
-}
 
  input[type=submit] {
     width: 100%;

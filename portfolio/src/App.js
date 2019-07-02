@@ -6,7 +6,7 @@ import AboutMePage from './Components/PageViews/AboutMe/AboutMePage'
 import ContactPage from './Components/PageViews/ContactPage'
 import LandingPage from './Components/PageViews/LandingPage/LandingPage'
 import ProjectPage from './Components/PageViews/Projects/ProjectPage'
-import ResumePage from './Components/PageViews/ResumePage'
+import ResumePage from './Components/PageViews/Resume/ResumePage'
 import Navigation from './Components//Navigation'
 
 class App extends Component {
