@@ -1,0 +1,107 @@
+.landing {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  text-align: center;
+  justify-content: center;
+  font-family: "Copse";
+  font-size: 3rem;
+  color: #b3b3b3;
+  overflow: hidden;
+}
+
+landing .name {
+  justify-content: center;
+  text-align: center;
+}
+
+.intro {
+  padding-top: 30vh;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.name {
+  animation: fadein 5s 1;
+}
+
+.title {
+  animation: fadeinslower 6s 1;
+}
+
+.downicon {
+  animation: fadeinslowest 8s 1;
+  justify-content: center;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinslower {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinslowest {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 600px) {
+  .landing {
+    font-size: 2em;
+  }
+}
