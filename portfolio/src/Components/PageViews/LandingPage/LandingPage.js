@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../../main.css";
 import "./landingpage.css"
 
 let styled = {

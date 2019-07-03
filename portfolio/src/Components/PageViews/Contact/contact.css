@@ -1,0 +1,52 @@
+.contact {
+  height: 100vh;
+  width: 100vw;
+  background: #0d0d0d;
+  text-align: center;
+  justify-content: center;
+  font-family: "Copse";
+  font-size: 2em;
+  color: black;
+}
+.container {
+  padding-top: 5%;
+}
+
+form {
+  background-color: #a9754f;
+  padding: 3%;
+  padding-bottom: 0.5%;
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  border-radius: 7px;
+}
+
+.sendbutton {
+  box-shadow: 2px 2px 3px #999;
+  background: #e0e0d1;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 600px) {
+  .contact a {
+    height: 30vh;
+  }
+  .container {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+  .contactbuttons {
+    height: 90vh;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

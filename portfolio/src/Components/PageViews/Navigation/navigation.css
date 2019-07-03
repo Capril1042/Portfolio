@@ -1,0 +1,43 @@
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  width: 90%;
+  opacity: 0.9;
+  border-radius: 7px;
+  margin: 1%;
+  margin-left: 3%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  width: 17vw;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: hotpink;
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 600px) {
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+  }
+}
