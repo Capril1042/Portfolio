@@ -23,21 +23,11 @@
 }
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 600px) {
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    width: 100%;
-    opacity: 0.3;
-    filter: alpha(opacity=30);
+  #navbar {
+    display:none
   }
 
   .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 2px;
-    text-decoration: none;
+   display: none
   }
 }
