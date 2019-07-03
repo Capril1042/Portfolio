@@ -8,25 +8,25 @@ const cardData = [
     projectName: "Space Race",
     projectImage: `${spaceRace}`,
     projectURL: "https://www.youtube.com/watch?v=AVXaQf3QB9E",
-    projectStack: ["Python", "Django", "JavaScript", "React"],
+    projectStack: ["Django", "React"],
 
-    projectBlurb: " An educational tool allowing teachers to quiz students."
+    projectBlurb: "Users quiz their students."
   },
 
   {
     projectName: "Djorg-Fit",
     projectImage: `${djorg}`,
     projectURL: "https://github.com/Capril1042/djorg",
-    projectStack: ["Python", "Django", "HTML", "Bootstrap"],
-    projectBlurb: "Organizational tool for users to track their fitness journey"
+    projectStack: ["Django", "HTML"],
+    projectBlurb: "Users track their fitness journey"
   },
 
   {
     projectName: "Recipe Tracker",
     projectImage: `${recipe}`,
     projectURL: "https://quiet-sea-76781.herokuapp.com",
-    projectStack: ["React", "Node.js", "Mongo", "Express"],
-    projectBlurb: "Allows users to Add and Store Recipes"
+    projectStack: ["React", "Node.js"],
+    projectBlurb: "Users to Add and Store Recipes"
   },
 
   {

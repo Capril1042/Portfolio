@@ -140,8 +140,8 @@
 
   .cardcontainer {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    /* flex-direction: column;
+    flex-wrap: nowrap; */
     justify-content: center;
     width: 80%;
     height: auto;
@@ -151,7 +151,7 @@
 
   .card {
     border: 1px solid black;
-    height: 10vh;
+    height: 12vh;
     width: 80vw;
     background: #d1e0e0;
     margin: 2%;
@@ -160,17 +160,17 @@
 
   .cardheader {
     font-size: 1em;
-    font-style: bold;
-    height: 4vh;
+    text-decoration: bold;
+    height: 5vh;
   }
 
   .cardfooter {
     font-size: 0.5em;
-    height: 6vh;
-    padding-bottom: 1%;
+    height: 7vh;
+    padding-bottom: 2%;
   }
   .pbutton {
-    margin: 2%;
+    margin-bottom: 25%;
     padding: 7%;
   }
 
@@ -180,4 +180,5 @@
   .cardbody {
     display: none;
   }
+
 }
