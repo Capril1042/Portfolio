@@ -38,7 +38,7 @@ const cardData = [
     projectBlurb: "Daily Caloric Intake Calculator"
   },
   {
-    projectName: "Crpytograms",
+    projectName: "Cryptograms",
     projectImage: `${crypt}`,
     projectURL: "https://cryptogrampuzzles.netlify.com/",
     projectStack: ["React"],
