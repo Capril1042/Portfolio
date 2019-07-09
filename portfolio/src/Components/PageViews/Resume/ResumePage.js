@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button } from "reactstrap";
 import "./resume.css";
 
 let styled = {
@@ -18,7 +19,8 @@ class ResumePage extends Component {
           >  
           </iframe>
           <div className="mobile-resume">
-            <button>View Resume </button>
+            <Button>
+            <a href="https://resume.creddle.io/resume/168a95faj2m">View Resume </a></Button>
           </div>
           <div className="icondown">
             <a href="#contact">

@@ -27,12 +27,13 @@ iframe {
     text-align: center;
   }
  
-  .mobile-resume button{
+  .mobile-resume Button{
     height: 15vh;
     width:60vw;
     margin-top:10%;
     border-radius:8px;
     background-color:pink;
-    font-weight: bold
+    font-weight: bold;
+    color: purple;
   }
 }
