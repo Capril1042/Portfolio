@@ -15,11 +15,10 @@ class ResumePage extends Component {
             src="https://drive.google.com/file/d/15B0pHusvZBST0IxYsnZStfqlALgDzzGn/preview"
             width="640"
             height="480"
-          >
-            ">
+          >  
           </iframe>
           <div className="mobile-resume">
-            <button>click to view resume</button>{" "}
+            <button>View Resume </button>
           </div>
           <div className="icondown">
             <a href="#contact">
