@@ -2,6 +2,7 @@ const spaceRace = require("../../../../assets/spacerace.png");
 const djorg = require("../../../../assets/Djorg.png");
 const recipe = require("../../../../assets/recipe.png");
 const calcalc = require("../../../../assets/calcalc.png");
+const crypt = require("../../../../assets/crypt.png")
 
 const cardData = [
   {
@@ -35,6 +36,13 @@ const cardData = [
     projectURL: "https://calcalc.netlify.com/",
     projectStack: ["React"],
     projectBlurb: "Daily Caloric Intake Calculator"
+  },
+  {
+    projectName: "Crpytograms",
+    projectImage: `${crypt}`,
+    projectURL: "https://cryptogrampuzzles.netlify.com/",
+    projectStack: ["React"],
+    projectBlurb: "Cryptogram Puzzle Game"
   }
 ];
 
